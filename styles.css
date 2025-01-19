@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    background-color:brown;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+main {
+    padding: 2rem;
+}
+.destination {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.destination img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+.destination-info {
+    padding: 1rem;
+}
+.destination-info h2 {
+    margin: 0;
+    color: brown;
+}
+.destination-info p {
+    margin: 0.5rem 0 0;
+}
